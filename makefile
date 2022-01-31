@@ -4,5 +4,5 @@ start_frontend:
 start_backend:
 	cd backend && python3 manage.py runserver
 
-make start:
+start:
 	make start_frontend & make start_backend
